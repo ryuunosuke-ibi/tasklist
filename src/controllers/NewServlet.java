@@ -41,7 +41,7 @@ public class NewServlet extends HttpServlet {
         //String title = "April";
         //m.setTitle(title);
 
-        String content = "dinnerwithfrends";
+        String content = "saygoodbye";
         m.setContent(content);
 
         Timestamp currentTime = new Timestamp(System.currentTimeMillis());     // 現在の日時を取得
