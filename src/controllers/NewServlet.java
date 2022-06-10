@@ -38,10 +38,10 @@ public class NewServlet extends HttpServlet {
         Tasks m = new Tasks();
 
         // mの各フィールドにデータを代入
-        //String title = "taro";
+        //String title = "April";
         //m.setTitle(title);
 
-        String content = "hello";
+        String content = "dinnerwithfrends";
         m.setContent(content);
 
         Timestamp currentTime = new Timestamp(System.currentTimeMillis());     // 現在の日時を取得
