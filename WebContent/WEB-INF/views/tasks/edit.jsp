@@ -4,14 +4,9 @@
     <c:param name="content">
         <h2>id : ${tasks.id} の編集ページ</h2>
 
-        <form method="POST" action="${pageContext.request.contextPath}/create">
-<label for="content">タスクの内容</label><br />
-<input type="text" name="content" value="${tasks.content}" />
-<br /><br />
-<input type="hidden" name="_token" value="${_token}" />
-<button type="submit">投稿</button>
-        </form>
-
+       <form method="POST" action="${pageContext.request.contextPath}/update">
+                    <c:import url="_form.jsp" />
+                </form>
 
         <p><a href="${pageContext.request.contextPath}/index">一覧に戻る</a></p>
         <p><a href="#" onclick="confirmDestroy();">このメッセージを削除する</a></p>
