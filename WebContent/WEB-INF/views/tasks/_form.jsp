@@ -2,7 +2,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <label for="content">タスク</label><br />
-<input type="text" name="content" value="${message.content}" />
+<input type="text" name="content" value="${tasks.content}" />
 <br /><br />
 
 <input type="hidden" name="_token" value="${_token}" />
